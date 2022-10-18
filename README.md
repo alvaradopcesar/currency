@@ -12,13 +12,18 @@ This project uses the **Go** programming language (Golang) **PostgreSQL** databa
 
 [PostgreSQL](https://www.postgresql.org/) is required in version 9.6 or higher, [Go](https://golang.org/) at least in version 1.18
 
-## Running the tests
+### Running the tests
 
 ```bash
 make test
 ```
 
-## Running the app
+### Running Environment Data Base Postgres
+```bash
+make start-compose
+```
+
+### Running the app
 
 ```bash
 make init
